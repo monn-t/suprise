@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secret Reward</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HALAMAN HADIAH -->
+  <div id="loginPage" class="login-page">
+
+    <div class="gift-box">
+
+      <div class="gift-icon">🎁</div>
+
+      <div class="congrats">
+        CONGRATULATIONS!
+      </div>
+
+      <h1>You Won a Surprise Gift</h1>
+
+      <p class="gift-text">
+        Selamat! Kamu terpilih untuk mendapatkan
+        hadiah kejutan spesial.
+      </p>
+
+      <div class="gift-card">
+        🎉 <b>SECRET REWARD</b> 🎉
+        <br>
+        <span>Claim your surprise now</span>
+      </div>
+
+      <p class="claim-text">
+        Masukkan nama kamu untuk melanjutkan:
+      </p>
+
+      <input
+        type="text"
+        id="nameInput"
+        placeholder="Nama kamu..."
+        autocomplete="off"
+      >
+
+      <button onclick="startHack()">
+        🎁 KLAIM HADIAH
+      </button>
+
+      <p class="small">
+        ✦ Limited surprise ✦
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- HALAMAN TERMINAL -->
+  <div id="terminalPage" class="terminal-page">
+
+    <div class="topbar">
+
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+
+      <span class="title">
+        REMOTE_SESSION.exe
+      </span>
+
+    </div>
+
+    <div class="terminal">
+
+      <div class="brand">
+        SECURE REMOTE CONSOLE
+      </div>
+
+      <div id="output"></div>
+
+      <div class="cursor">
+        root@system:~# █
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>

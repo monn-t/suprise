@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #020403;
+  color: #35ff78;
+  font-family: "Courier New", monospace;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* =========================
+   HALAMAN HADIAH
+========================= */
+
+.login-page {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  background:
+    radial-gradient(
+      circle at center,
+      #171326 0%,
+      #08070d 55%,
+      #020203 100%
+    );
+}
+
+.gift-box {
+  width: 100%;
+  max-width: 430px;
+
+  padding: 35px 28px;
+
+  text-align: center;
+
+  background: linear-gradient(
+    145deg,
+    #15151d,
+    #09090e
+  );
+
+  border: 1px solid #45455c;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 0 40px rgba(120, 90, 255, .18);
+
+  animation: appear .7s ease;
+}
+
+.gift-icon {
+  font-size: 70px;
+  margin-bottom: 10px;
+
+  animation: float 2s infinite ease-in-out;
+}
+
+.congrats {
+  font-size: 13px;
+
+  letter-spacing: 4px;
+
+  color: #b8a7ff;
+
+  margin-bottom: 12px;
+}
+
+.gift-box h1 {
+  margin: 0 0 12px;
+
+  font-size: 25px;
+
+  color: #fff;
+}
+
+.gift-text {
+  color: #aaaaba;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+.gift-card {
+  margin: 25px 0;
+
+  padding: 18px;
+
+  border-radius: 12px;
+
+  background: #11111a;
+
+  border: 1px solid #38384d;
+
+  color: #e7e2ff;
+
+  line-height: 1.7;
+}
+
+.gift-card span {
+  color: #8e8ea5;
+
+  font-size: 12px;
+}
+
+.claim-text {
+  color: #aaaaba;
+
+  font-size: 13px;
+
+  margin-bottom: 10px;
+}
+
+.gift-box input {
+  width: 100%;
+
+  padding: 14px;
+
+  border-radius: 9px;
+
+  border: 1px solid #3b3b50;
+
+  outline: none;
+
+  background: #07070b;
+
+  color: white;
+
+  font-family: monospace;
+
+  font-size: 15px;
+}
+
+.gift-box input:focus {
+  border-color: #8875ff;
+
+  box-shadow:
+    0 0 12px rgba(136, 117, 255, .2);
+}
+
+.gift-box button {
+  margin-top: 12px;
+
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: linear-gradient(
+    90deg,
+    #705cff,
+    #a56cff
+  );
+
+  color: white;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  font
